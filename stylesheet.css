@@ -1,3 +1,4 @@
+/* -------Light Switch-------- */
 html,
 body {
   margin: 0;
@@ -61,3 +62,5 @@ input[type="checkbox"]:checked + label #button {
 input[type="checkbox"]:checked + label #button * {
   opacity: 0;
 }
+
+/* Everything Else */
