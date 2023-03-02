@@ -1,5 +1,7 @@
 # Final-Project
+
 This is my final project for my CIS133 class.
+It will show the history of computers, as well as relevant information.
 
 ### Built with
 
@@ -7,6 +9,6 @@ This is my final project for my CIS133 class.
 - CSS custom properties
 - Flexbox
 
-### Resources
-[DevDocs](https://devdocs.io/)
+### Useful Resources
 
+[DevDocs](https://devdocs.io/)

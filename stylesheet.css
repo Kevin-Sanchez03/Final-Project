@@ -1,0 +1,23 @@
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+a {
+  color: black;
+}
+button {
+  background-color: white;
+  color: black;
+}
+
+body.light-mode {
+  background-color: white;
+  color: black;
+}
+a {
+  color: black;
+}
+button {
+  background-color: black;
+  color: white;
+}
