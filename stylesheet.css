@@ -41,8 +41,8 @@ body {
 
 input[type="checkbox"] + label {
   background-color: #040d1c;
-  width: 100px;
-  height: 40px;
+  width: 50px;
+  height: 20px;
   border-radius: 50px;
   display: block;
   padding: 10px;
@@ -50,14 +50,14 @@ input[type="checkbox"] + label {
   z-index: 5;
   position: absolute;
   top: calc(0 - 50px);
-  left: calc(90% - 80px);
+  left: calc(100% - 80px);
   cursor: pointer;
   cursor: hand;
 }
 
 #button {
-  width: 40px;
-  height: 40px;
+  width: 20px;
+  height: 20px;
   border-radius: 100px;
   background-color: #f0f0f0;
   box-shadow: 0 0 100px rgba(255, 255, 255, 1);
@@ -164,7 +164,7 @@ input[type="checkbox"]:checked + label ~ section .star {
 
 input[type="checkbox"]:checked + label #button {
   background-color: #f4e94e;
-  margin-left: calc(100% - 80px);
+  margin-left: calc(100% - 20px);
   box-shadow: 0 0 100px rgba(249, 240, 104, 1);
 }
 
