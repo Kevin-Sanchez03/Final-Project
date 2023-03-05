@@ -1,7 +1,7 @@
 /* -------Light Switch-------- */
-html,
-body {
-  margin: 0;
+/* html,
+body { */
+/* margin: 0;
 }
 
 * {
@@ -45,7 +45,7 @@ input[type="checkbox"] + label ~ section {
 }
 
 /* ----- CHECKED ----- */
-input[type="checkbox"]:checked + label {
+/* input[type="checkbox"]:checked + label {
   background-color: #2a5fba;
 }
 
@@ -61,6 +61,36 @@ input[type="checkbox"]:checked + label #button {
 
 input[type="checkbox"]:checked + label #button * {
   opacity: 0;
-}
+/* } */
 
 /* Everything Else */
+
+* {
+  border: solid;
+}
+
+body {
+  background-color: #fafbfc;
+}
+
+header {
+  background-color: #6eaff2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1em;
+}
+#container {
+  border: solid;
+  display: flex;
+  flex-direction: row;
+}
+#left-box {
+  background-color: #6eaff2;
+  flex: 1;
+  margin-right: 1em;
+}
+#right-box {
+  background-color: #6eaff2;
+  flex: 1;
+}
