@@ -65,10 +65,6 @@ input[type="checkbox"]:checked + label #button * {
 
 /* Everything Else */
 
-* {
-  border: solid;
-}
-
 body {
   background-color: #fafbfc;
 }
@@ -79,9 +75,11 @@ header {
   justify-content: center;
   align-items: center;
   margin-bottom: 1em;
+  border-radius: 10px;
 }
+
+/* Main Page */
 #container {
-  border: solid;
   display: flex;
   flex-direction: row;
 }
@@ -89,8 +87,34 @@ header {
   background-color: #6eaff2;
   flex: 1;
   margin-right: 1em;
+  height: 25em;
+  border-radius: 10px;
 }
 #right-box {
   background-color: #6eaff2;
   flex: 1;
+  height: 25em;
+  border-radius: 10px;
+}
+p {
+  padding: 1em;
+}
+
+/* Timeline page */
+#t-container {
+  display: flex;
+  flex-direction: row;
+}
+.column-1 {
+  display: flex;
+  flex: 1 400px;
+  background-color: #6eaff2;
+  padding: 1em;
+  margin: 1em;
+}
+.column-2 {
+  display: flex;
+  background-color: #6eaff2;
+  padding: 1em;
+  margin: 1em;
 }
