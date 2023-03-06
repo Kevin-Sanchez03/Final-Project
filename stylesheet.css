@@ -60,13 +60,23 @@ body {
   background-color: #fafbfc;
 }
 
+h1 {
+  color: #fd8372;
+  align-self: center;
+  padding: 0.25em 0.5em;
+}
+
 header {
-  background-color: #6eaff2;
+  background-color: #323e49;
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   align-items: center;
   margin-bottom: 1em;
   border-radius: 10px;
+}
+a {
+  text-decoration: none;
+  color: #fd8372;
 }
 
 /* Main Page */
@@ -75,20 +85,21 @@ header {
   flex-direction: row;
 }
 #left-box {
-  background-color: #6eaff2;
+  background-color: #323e49;
   flex: 1;
   margin-right: 1em;
-  height: 25em;
+  height: 30em;
   border-radius: 10px;
 }
 #right-box {
-  background-color: #6eaff2;
+  background-color: #323e49;
   flex: 1;
-  height: 25em;
+  height: 30em;
   border-radius: 10px;
 }
 p {
   padding: 1em;
+  color: #fd8372;
 }
 
 /* Timeline page */
@@ -99,16 +110,32 @@ p {
 .column-1 {
   display: flex;
   flex: 1 400px;
-  background-color: #6eaff2;
+  background-color: #323e49;
   padding: 1em;
   margin: 1em;
+  margin-right: 0.2em;
   margin-left: 0;
-  border-radius: 10px;
+  border-radius: 10px 1px 1px 10px;
 }
+
+.cirlce {
+  background-color: #fd8372;
+  border-radius: 100%;
+  width: 0.5em;
+  height: 0.5em;
+}
+
 .column-2 {
   display: flex;
-  background-color: #6eaff2;
+  background-color: #323e49;
   padding: 1em;
   margin: 1em 0;
-  border-radius: 10px;
+  border-radius: 1px 10px 10px 1px;
+}
+
+.dates {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
