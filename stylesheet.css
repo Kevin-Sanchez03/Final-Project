@@ -99,6 +99,7 @@ h4 {
   font-weight: 700;
   font-family: var(--font-display);
   line-height: 1.1;
+  padding: 0.5em 1em;
 }
 
 header {
@@ -110,16 +111,17 @@ header {
   border-radius: 10px;
 }
 
-a:link {
+a {
   text-decoration: none;
+  color: var(--color-secondary);
 }
 a::before {
   color: var(--color-dark);
 }
 a:visited {
-  color: var(--color-dark);
+  color: var(--color-secondary);
 }
-nav {
+/* nav {
   position: sticky;
   top: 0;
   z-index: 1;
@@ -128,7 +130,7 @@ nav {
   border: var(--border-width-1) solid var(--color-light);
   border-top: none;
   padding-bottom: var(--border-width-1);
-}
+} */
 
 /* Main Page */
 #container {
@@ -136,31 +138,23 @@ nav {
   flex-direction: row;
 }
 
-nav::before {
-  /* Creates a fake border between the nav element and 
-        the header when the nav element is "stuck". */
-  content: "";
-  height: var(--border-width-1);
-  display: block;
-  background-color: var(--color-light);
-}
-
 #left-box {
   background-color: var(--color-primary);
   flex: 1;
   margin-right: 1em;
-  height: 31em;
+  height: 32em;
   border-radius: 10px;
 }
 #right-box {
   background-color: var(--color-primary);
   flex: 1;
-  height: 31em;
+  height: 32em;
   border-radius: 10px;
 }
 p {
   padding: 1em;
   color: var(--color-light);
+  font-family: var(--font-base);
 }
 
 /* Timeline page */
@@ -170,7 +164,7 @@ p {
 }
 .column-1 {
   display: flex;
-  flex: 1 400px;
+  /* flex: 1 400px; */
   background-color: var(--color-primary);
   padding: 1em;
   margin: 1em;
