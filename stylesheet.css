@@ -1,59 +1,3 @@
-/* -------Light Switch-------- */
-/* html,
-body { */
-/* margin: 0;
-}
-* {
-  transition: 1s all;
-}
-input[type="checkbox"] + label {
-  background-color: #040d1c;
-  width: 50px;
-  height: 20px;
-  border-radius: 50px;
-  display: block;
-  padding: 10px;
-  box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.5);
-  z-index: 5;
-  position: absolute;
-  top: calc(0 - 50px);
-  left: calc(100% - 80px);
-  cursor: pointer;
-  cursor: hand;
-}
-#button {
-  width: 20px;
-  height: 20px;
-  border-radius: 100px;
-  background-color: #f0f0f0;
-  box-shadow: 0 0 100px rgba(255, 255, 255, 1);
-}
-input[type="checkbox"] {
-  display: none;
-}
-input[type="checkbox"] + label ~ section {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  background-color: #0f1f3a;
-  z-index: -1;
-}
-/* ----- CHECKED ----- */
-/* input[type="checkbox"]:checked + label {
-  background-color: #2a5fba;
-}
-input[type="checkbox"]:checked + label ~ section {
-  background-color: #568eef;
-}
-input[type="checkbox"]:checked + label #button {
-  background-color: #f4e94e;
-  margin-left: calc(100% - 20px);
-  box-shadow: 0 0 100px rgba(249, 240, 104, 1);
-}
-input[type="checkbox"]:checked + label #button * {
-  opacity: 0;
-/* } */
-
 /* Style Stage colors & designs */
 :root {
   --font-base: "Cabin", sans-serif;
@@ -67,18 +11,6 @@ input[type="checkbox"]:checked + label #button * {
   --size-base: 1rem;
   --size-300: calc(var(--size-base) * 0.75);
   --size-400: calc(var(--size-base) * 1);
-  /* --size-500: calc(var(--size-base) * 1.33);
-  --size-600: calc(var(--size-base) * 1.77);
-  --size-700: calc(var(--size-base) * 2.36);
-  --size-800: calc(var(--size-base) * 3.15);
-  --size-900: calc(var(--size-base) * 4.2);
-  --size-major: calc(var(--size-base) * 5.6);
-  --flow-space: var(--size-600);
-  --vertical-padding: var(--size-900);
-  --border-width-1: var(--size-400);
-  --border-width-2: 3px;
-  --underline-thin: 2px;
-  --underline-thick: 5px; */
 }
 
 /* Everything Else */
@@ -111,6 +43,15 @@ header {
   border-radius: 10px;
 }
 
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 40em;
+  padding: 0.3em;
+}
+
 a {
   text-decoration: none;
   color: var(--color-secondary);
@@ -121,16 +62,6 @@ a::before {
 a:visited {
   color: var(--color-secondary);
 }
-/* nav {
-  position: sticky;
-  top: 0;
-  z-index: 1;
-  color: var(--color-dark);
-  background-color: var(--color-tertiary);
-  border: var(--border-width-1) solid var(--color-light);
-  border-top: none;
-  padding-bottom: var(--border-width-1);
-} */
 
 /* Main Page */
 #container {
@@ -139,16 +70,25 @@ a:visited {
 }
 
 #left-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   background-color: var(--color-primary);
   flex: 1;
   margin-right: 1em;
-  height: 32em;
+  height: 31em;
   border-radius: 10px;
 }
+
 #right-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
   background-color: var(--color-primary);
   flex: 1;
-  height: 32em;
+  height: 31em;
   border-radius: 10px;
 }
 p {
@@ -164,3 +104,10 @@ p {
   display: flex;
   flex-direction: column;
 }
+
+.item {
+  border: solid;
+  margin-bottom: 2em;
+}
+
+/* Laws of Computing page */
