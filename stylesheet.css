@@ -37,13 +37,16 @@ h4 {
 header {
   background: var(--color-primary);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   margin-bottom: 1em;
   border-radius: 10px;
 }
 
 .navigation {
+  position: sticky;
+  top: auto;
+  right: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
