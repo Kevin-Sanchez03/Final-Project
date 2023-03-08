@@ -103,6 +103,7 @@ a:visited {
   flex: 1;
   margin-right: 1em;
   height: 31em;
+  padding: 1em;
 }
 
 #right-box {
@@ -113,11 +114,18 @@ a:visited {
   background-color: var(--color-primary);
   flex: 1;
   height: 31em;
+  padding: 1em;
 }
 p {
   padding: 1em;
   color: var(--color-light);
   font-family: var(--font-base);
+  margin: 0;
+}
+
+img {
+  width: 20em;
+  height: 15em;
 }
 
 /* Timeline page */
@@ -127,7 +135,7 @@ p {
   display: flex;
   flex-direction: column;
   border-left: 5px solid var(--color-secondary);
-  padding: 2em;
+  padding: 0 2em 0 3em;
 }
 
 .item {
