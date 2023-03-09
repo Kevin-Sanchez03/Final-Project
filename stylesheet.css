@@ -176,6 +176,8 @@ img {
   flex-basis: 0.001em;
   /* border-left: solid var(--color-primary); */
 }
+
+/* Couldn't quite figure out how to add the dots */
 .icon > span {
   font-size: 20px;
   margin: auto;
