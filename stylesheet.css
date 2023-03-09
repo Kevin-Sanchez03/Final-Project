@@ -57,7 +57,7 @@ h4 {
   color: var(--color-secondary);
   font-weight: 700;
   font-family: var(--font-display);
-  padding: 0.3em;
+  padding: 0.3em 0;
   margin: 0;
 }
 
@@ -203,7 +203,7 @@ img {
   margin-left: 2em;
 }
 .info:hover {
-  background-color: var(--color-quaternary);
+  background-color: #535f6a;
 }
 .info {
   margin-bottom: 3%;
