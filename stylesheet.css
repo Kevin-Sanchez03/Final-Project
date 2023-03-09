@@ -8,9 +8,6 @@
   --color-secondary: #fd8372;
   --color-tertiary: #feeb2d;
   --color-quaternary: #90b8d0;
-  --size-base: 1rem;
-  --size-300: calc(var(--size-base) * 0.75);
-  --size-400: calc(var(--size-base) * 1);
 }
 
 /* Everything Else */
@@ -111,7 +108,7 @@ li {
   background-color: var(--color-primary);
   flex: 1;
   margin-right: 1em;
-  height: 31em;
+  height: 30em;
   padding: 1em;
   border-radius: 10px;
 }
@@ -121,7 +118,7 @@ li {
   flex-direction: column;
   background-color: var(--color-primary);
   flex: 1;
-  height: 31em;
+  height: 30em;
   padding: 1em;
   border-radius: 10px;
 }
