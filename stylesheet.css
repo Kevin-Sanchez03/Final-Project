@@ -45,6 +45,12 @@ h1 {
   align-items: center;
 }
 
+.top-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 h2,
 h3,
 h4 {
@@ -64,7 +70,7 @@ nav {
 }
 
 ul {
-  font-size: 200%;
+  font-size: 140%;
   list-style-type: none;
   padding: 0;
   display: flex;
@@ -98,6 +104,7 @@ li {
 #container {
   display: flex;
   flex-direction: row;
+  margin: auto 1em;
 }
 
 #left-box {
@@ -139,6 +146,7 @@ p {
 }
 
 img {
+  margin: 0.5em;
   width: 20em;
   height: 15em;
 }
@@ -182,7 +190,8 @@ img {
   border: 5px solid var(--color-primary);
 }
 .info {
-  text-align: center;
+  display: flex;
+  flex-direction: row;
   padding: 10px;
   border-radius: 5px;
   color: var(--color-light);
@@ -199,6 +208,7 @@ img {
   margin-bottom: 3%;
 }
 .info h2 {
+  padding-right: 1em;
   margin: 0;
   font-size: 18px;
   text-transform: uppercase;
@@ -206,6 +216,12 @@ img {
 }
 .info p {
   line-height: 1.4;
+  padding: 0;
+}
+
+.timeline-img {
+  width: 15em;
+  height: 10em;
 }
 
 /* Laws of Computing page */
