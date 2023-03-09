@@ -161,30 +161,32 @@ img {
   width: 100%;
 }
 .icon {
-  display: flex;
+  /* display: flex; */
   background: linear-gradient(
     to right,
-    var(--color-light) 45%,
-    var(--color-primary) 45%,
-    var(--color-primary) 40%,
-    var(--color-light) 50%
+    var(--color-primary),
+    var(--color-primary),
+    var(--color-primary),
+    var(--color-primary)
   );
   order: 2;
   text-align: center;
   color: var(--color-light);
-  font-size: 28px;
-  flex-basis: 100px;
+  /* font-size: 28px; */
+  flex-basis: 0.001em;
+  /* border-left: solid var(--color-primary); */
 }
 .icon > span {
   font-size: 20px;
   margin: auto;
   background: var(--color-secondary);
   border-radius: 50px;
-  width: 1em;
-  height: 1em;
+  width: 2em;
+  height: 2em;
   line-height: 60px;
   border: 5px solid var(--color-primary);
 }
+
 .info {
   display: flex;
   flex-direction: row;
@@ -196,6 +198,7 @@ img {
   padding-left: 10px;
   background: var(--color-primary);
   transition: all 0.6s ease;
+  margin-left: 2em;
 }
 .info:hover {
   background-color: var(--color-quaternary);
