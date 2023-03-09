@@ -92,10 +92,6 @@ a:hover {
   color: var(--color-secondary);
 }
 
-a::before {
-  color: var(--color-dark);
-}
-
 li {
   list-style: none;
 }
