@@ -232,3 +232,12 @@ img {
   max-width: 22.2em;
   border-radius: 10px;
 }
+
+/* MiscInfo */
+
+.info-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 1em 0;
+}
